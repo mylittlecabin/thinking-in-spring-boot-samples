@@ -45,3 +45,5 @@ Thumbs.db
 
 # others
 .extract
+.attach*
+
