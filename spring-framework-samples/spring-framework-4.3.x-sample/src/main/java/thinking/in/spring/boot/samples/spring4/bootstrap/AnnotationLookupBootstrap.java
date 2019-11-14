@@ -32,7 +32,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class AnnotationLookupBootstrap {
 
-    @Lookup("helloWorld2")
+//    @Lookup("helloWorld2")
     @Bean("helloWorld")
     public String helloWorld() {
         return "Hello,World";
